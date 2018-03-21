@@ -1,9 +1,10 @@
-aws41
-This is a fork of [mhart/aws4](https://github.com/mhart/aws4) to make it work with webpack and Angular CLI. Added crypto-browserify and [en/de]codeURIComponent instead of nodejs alternatives. Follow the original readme, but instead of using the name `aws4`, use `aws44`
+aws44
+----
+This is a fork of [mhart/aws4](https://github.com/mhart/aws4) to make it work with webpack and Angular CLI. Added crypto-browserify and [en/de]codeURIComponent instead of nodejs alternatives. Follow the original readme, but instead of using the name `aws4`, use `aws44`.
 
-npm install aws44
+`npm install aws44`
 
-var aws4 = require('aws44');
+`var aws4 = require('aws44');`
 
 
 Original readme follows.
