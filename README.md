@@ -1,7 +1,18 @@
++aws44
++-----
++This is a fork of [mhart/aws4](https://github.com/mhart/aws4) to make it work with webpack and Angular CLI. Used crypto-browserify and de/encodeURIComponent instead of node js alternatives. Follow the original readme, but instead of using the name `aws4`, use `aws44`
++```
++npm install aws44
++```
++
++```javascript
++var aws4 = require('aws44');
++```
++
++Original readme follows.
++
 aws4
 ----
-
-[![Build Status](https://secure.travis-ci.org/mhart/aws4.png?branch=master)](http://travis-ci.org/mhart/aws4)
 
 A small utility to sign vanilla node.js http(s) request options using Amazon's
 [AWS Signature Version 4](http://docs.amazonwebservices.com/general/latest/gr/signature-version-4.html).
